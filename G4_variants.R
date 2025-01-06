@@ -39,7 +39,7 @@ g4_db%>% group_by(V4) %>%  filter(all(is.na(pmaxx)))%>% nrow()
 
 
 
-g4_expr<-merge(db_db,g4_exprvalid,by.x="name",by.y="V5")'
+g4_expr<-merge(db_db,g4_exprvalid,by.x="name",by.y="V5")
 here, the V1.y, V2.y, V3 are hg19 positions.
 
 g4_expr%>% is.na(pmaxx1)%>%nrow()
